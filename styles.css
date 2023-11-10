@@ -1,0 +1,260 @@
+/*GÉNERALE*/
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main {
+    /* padding: 20px;; */
+}
+
+.flex {
+    display:flex;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction:row;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items:flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    /* background-color:yellow; */
+    width:100%;
+
+}
+
+
+
+#site-wrapper{
+    width:100%;
+    margin:auto;
+}
+
+nav {
+    padding:30px;
+}
+
+nav a {
+    margin:10px;
+}
+
+h2 {
+    text-align: center;
+    padding:0px 20px 0px 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color : grey;
+}
+
+a:hover{
+    color:blue;
+}
+
+
+#search {
+    padding: 10px;
+    border-radius: 5px;
+    border : 2px solid #dcdcdc;
+    min-width: 3O0px;
+    /* background: url(img/loupe.svg) no-repeat;
+    background-size: 18%;
+    background-position: bottom 5px right 5px ; */
+}
+
+
+.btn {
+    background-color: blue;
+    box-shadow: none;
+    border:blue;
+    border-radius:5px;
+    padding:10px;
+    color:#ffffff;
+
+
+}
+
+.btn-author {
+    background-color: blue;
+    box-shadow: none;
+    border:blue;
+    border-radius:5px;
+    padding:10px;
+    margin:10px;
+    color:#ffffff;
+}
+
+.search {
+    width: 50px;
+    height:40px;
+}
+
+.btn:hover, .btn-author:hover {
+    background-color:rgba(0, 0, 255, 0.8);
+    cursor: pointer;
+}
+
+img.picto:hover, img:hover {
+    opacity: 0.6;
+}
+
+a#basket {
+    box-shadow: none;
+    border-radius:5px;
+    height: 40px;
+    width: 40px;
+    background: url("img/panier-blue.svg") no-repeat;
+    background-size: 70%;
+    background-position:center center;
+    margin-left: 20px;
+}
+
+a#basket:hover {
+    background: url("img/panier.svg") no-repeat;
+    background-size: 70%;
+    background-position:center center;
+    cursor: pointer;
+}
+
+a.btn {
+    font-size:12px;;
+}
+
+.text-blue {
+    color:blue;
+}
+
+table {
+    background-color: blue;
+    width:100%;
+    border-collapse: collapse;
+}
+
+td, th{
+    text-align:left;
+    padding:12px 30px;
+    border:none;
+    width:50px;
+    color:grey;
+}
+
+
+
+td.total {
+    font-weight:bold;
+}
+
+.td-author {
+    width: 15%;
+}
+
+.td-btn {
+    width:20px;
+}
+
+
+td.edit {
+    text-align: right;
+}
+
+th {
+   background-color: blue;
+   border:none;
+   color:#ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(231, 249, 255);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(197, 219, 255);
+
+}
+
+tr:hover {
+    cursor: pointer;
+}
+
+form.login input {
+    margin-top: 15px;
+    border-radius:15px;
+    padding:10px 20px;
+
+
+}
+
+form.login input,[type='text'] {
+    padding:10px;
+    border-radius:15px;
+    border: 1px solid #dcdcdc;
+    text-align:center;
+
+}
+
+form.create input, form.create textarea , select{
+    padding:10px;
+    border-radius:5px;
+    border: 1px solid #dcdcdc;
+    margin-bottom:15px;
+    text-align: left;
+}
+
+form.create {
+    padding: 0px 30px;
+}
+
+p {
+    text-align:center;
+}
+
+p.label {
+    text-align:left;
+}
+
+.right {
+    text-align: right;
+}
+
+img.picto {
+    margin: 0px 10px;
+}
+
+h3 {
+    margin:10px 30PX;
+}
